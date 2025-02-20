@@ -1,6 +1,6 @@
-# GSMM_reconstruction
+# GEM_reconstruction
 
-The script "run_gsmm_recon.py" reconstruct strain-specific genome-scale metabolic models from their whole-genome sequencing data. Before running the script, please set up the following parameters in the configuration file "config.yaml":
+The script "run_gsmm_recon.py" reconstruct strain-specific GEnome-scale Metabolic (GEM) models from their whole-genome sequencing data. Before running the script, please set up the following parameters in the configuration file "config.yaml":
 
 ### required parameters
 * pan_gem_model_file # genome-scale metabolic model of the universe (pan-genome) model
