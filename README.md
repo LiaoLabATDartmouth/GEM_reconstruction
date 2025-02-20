@@ -1,4 +1,4 @@
-# Overview
+# User instructions
 A **GEnome-scale Metabolic (GEM)** model is a computational representation of an organism’s metabolism. GEMs are widely used to predict growth, optimize metabolic pathways, and explore gene functions through constraint-based modeling approaches.
 
 The script **run_gem_recon.py** reconstructs strain-specific GEM models from whole-genome sequencing data. It begins with a pan-genome (universe) model, which includes all metabolic reactions present in an organism. For each query genome, we perform a BLAST search of their protein sequences against those in the pan-genome model to determine the presence or absence of genes and reactions in the query GEM. Three gap-filling algorithms are implemented:
