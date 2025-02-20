@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "MSK2390",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "MSK2390",
+  "number-of-letters": 3063039,
+  "number-of-sequences": 6078,
+  "last-updated": "2025-02-20T11:46:00",
+  "number-of-volumes": 1,
+  "bytes-total": 3761210,
+  "bytes-to-cache": 3117830,
+  "files": [
+    "MSK2390.pdb",
+    "MSK2390.phr",
+    "MSK2390.pin",
+    "MSK2390.pot",
+    "MSK2390.psq",
+    "MSK2390.ptf",
+    "MSK2390.pto"
+  ]
+}

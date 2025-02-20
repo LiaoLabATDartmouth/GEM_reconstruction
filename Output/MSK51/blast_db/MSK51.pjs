@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "MSK51",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "MSK51",
+  "number-of-letters": 3079117,
+  "number-of-sequences": 6127,
+  "last-updated": "2025-02-20T11:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 3770369,
+  "bytes-to-cache": 3134349,
+  "files": [
+    "MSK51.pdb",
+    "MSK51.phr",
+    "MSK51.pin",
+    "MSK51.pot",
+    "MSK51.psq",
+    "MSK51.ptf",
+    "MSK51.pto"
+  ]
+}
