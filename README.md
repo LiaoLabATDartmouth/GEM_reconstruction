@@ -2,9 +2,9 @@
 A **GEnome-scale Metabolic (GEM)** model is a computational representation of an organism’s metabolism. GEMs are widely used to predict growth, optimize metabolic pathways, and explore gene functions through constraint-based modeling approaches.
 
 The script **run_gem_recon.py** reconstructs strain-specific GEM models from whole-genome sequencing data. It begins with a pan-genome (universe) model, which includes all metabolic reactions present in an organism. For each query genome, we perform a BLAST search of their protein sequences against those in the pan-genome model to determine the presence or absence of genes and reactions in the query GEM. Three gap-filling algorithms are implemented:
-	•	Minimizing the total number of reactions added (gapfilling_method="minrxnnum").
-	•	Maximizing the average score of added reactions (gapfilling_method="maxavescore"). This score is derived from the protein identity score in the BLAST analysis of the constituting genes.
-	•	Removing all minimal cut sets, which are the smallest sets of reactions whose removal would lead to a “no growth” phenotype. For each minimal cut set, only the reaction with the highest reaction score will be included in the reconstructed GEM.
+* Minimizing the total number of reactions added (gapfilling_method="minrxnnum").
+* Maximizing the average score of added reactions (gapfilling_method="maxavescore"). This score is derived from the protein identity score in the BLAST analysis of the constituting genes.
+* Removing all minimal cut sets, which are the smallest sets of reactions whose removal would lead to a “no growth” phenotype. For each minimal cut set, only the reaction with the highest reaction score will be included in the reconstructed GEM.
 
 Please install IBM CPLEX solver, which is available for free for academics. Please also set up the following parameters in the configuration file **config.yaml**:
 
