@@ -1,7 +1,7 @@
 # genome-scale metabolic model of the universe (pan-genome) model
 pan_gem_model_file: "CDC317/Cparapsilosis.xml"
 
-# this file contains two columns: ReferenceRxnID and QueryRxnID (reaction IDs)
+# the mapping file contains two columns PanGemGeneID and QueryGeneID
 pan_gem_gene_id_mapping_file: "CDC317/GeneID_mapping.csv"
 
 # protein fasta file of the pan-genome model

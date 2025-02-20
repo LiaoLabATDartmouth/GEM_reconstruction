@@ -22,7 +22,7 @@ DEFAULT_CONFIG = {
     "output_folder": "Output",
     "protein_identity_score_cutoff": 95,
     "gapfilling_method": "mcs",  # Available options: "minrxnnum", "maxavescore", "mcs"
-    "n_cpus": 28
+    "n_cpus": 1
 }
 
 # check if config.yaml exists
